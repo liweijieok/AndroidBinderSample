@@ -79,25 +79,22 @@ public class App2Service extends Service {
         }
 
         @Override
-        public UserInfo handleIn(UserInfo info) throws RemoteException {
+        public void handleIn(UserInfo info) throws RemoteException {
             info.setUserName("嘿嘿嘿");
-            return info;
         }
 
         @Override
-        public UserInfo handleOu(UserInfo info) throws RemoteException {
+        public void handleOut(UserInfo info) throws RemoteException {
             if (info == null) {
                 Log.e("App2Service", "UserInfi server is null");
                 info = new UserInfo();
             }
             info.setUserName("嘻嘻嘻");
-            return info;
         }
 
         @Override
-        public UserInfo handleInOut(UserInfo info) throws RemoteException {
+        public void handleInOut(UserInfo info) throws RemoteException {
             info.setUserName("哈哈哈");
-            return info;
         }
     };
 }

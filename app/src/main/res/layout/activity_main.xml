@@ -24,20 +24,38 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startServer"
-        android:text="启动服务端"/>
+        android:onClick="saveUser"
+        android:text="保存User"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startServer"
-        android:text="启动服务端"/>
+        android:onClick="getUserInfo"
+        android:text="查询User"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startServer"
-        android:text="启动服务端"/>
+        android:onClick="queryUser"
+        android:text="查询User"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handleIn"
+        android:text="handleIn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handleOut"
+        android:text="handleOut"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handleInOut"
+        android:text="handleInOut"/>
 
 
 </LinearLayout>

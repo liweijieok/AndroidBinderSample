@@ -18,8 +18,8 @@ interface UserService {
 
     //for in out inout
 
-    UserInfo handleIn(in UserInfo info);
-    UserInfo handleOu(out UserInfo info);
-    UserInfo handleInOut(inout UserInfo info);
+    void handleIn(in UserInfo info);
+    void handleOut(out UserInfo info);
+    void handleInOut(inout UserInfo info);
 
 }
