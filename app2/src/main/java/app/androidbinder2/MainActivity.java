@@ -1,4 +1,4 @@
-package app.androidbinder;
+package app.androidbinder2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="app.androidbinder">
+          package="app.androidbinder2">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MultiAppActivity">
-        </activity>
-        <activity android:name=".SameAppActivity"/>
-
-        <activity android:name=".ListActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -22,10 +18,12 @@
         </activity>
 
         <service
-            android:name=".services.AppService"
-            android:exported="true"
-            android:process=":local"
-            />
+            android:name=".services.App2Service"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.androidbinder2.user_service.action"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
