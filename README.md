@@ -17,7 +17,7 @@
 
 ## 文章介绍
 
-[Binder总结篇1-Binder原理](http://liweijieok.github.io/2018/08/13/Android/Android高级/Binder1/)
+[Binder总结篇1-Binder原理](https://liweijieok.github.io/2018/08/13/Binder1/)
 
-[Binder总结篇2-Binder使用](http://liweijieok.github.io/2018/08/19/Android/Android高级/Binder2/)
+[Binder总结篇2-Binder使用](https://liweijieok.github.io/2018/08/19/Binder2/)
 
